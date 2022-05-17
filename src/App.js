@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import MiprimerComponente from "./components/MiprimerComponente"; //importamos el componente para poder usarlo
+import Foco from "./Ejemplo/Foco"; 
+import FilaFocos from "./Ejemplo/FilaFocos";
+import FocoGrande from "./Ejemplo/FocoGrande";
+import FilaFocosDos from "./Ejemplo/FilaFocosDos";
+
+import "./index.css";
+
+//function App() {
+
+/*   return (
+/*     <div className="App">
+     {/*  <MiprimerComponente/> {/* //llamamos al componente} */
+
+//</div>
+//  );
+//}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="techo">
+      <FocoGrande/>
+      <FilaFocos/>
+      <FocoGrande/>
+
     </div>
   );
 }
